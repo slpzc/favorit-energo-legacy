@@ -1,0 +1,26 @@
+
+.swiper-button-prev, .swiper-button-next {
+	content: url(/BlackArrow.svg);
+	border: 1px solid black;
+	border-radius: 30px;
+	width: 24px !important;
+	height: 24px !important;
+	padding: 10px;
+	margin: 0 !important;
+	box-sizing: content-box;
+	cursor: pointer;
+}
+
+.swiper-button-prev {
+	transform: rotate(180deg) !important;
+}
+
+.swiper-pagination-bullet {
+	width: 72px !important;
+	height: 6px !important;
+	border-radius: 40px !important;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #CCF437 !important;
+}

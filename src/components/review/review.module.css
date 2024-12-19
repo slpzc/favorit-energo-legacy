@@ -1,0 +1,122 @@
+.review {
+	margin-top: 6.615vw;
+
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.textBlock {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.title {
+	color: #282829;
+	font-family: Cakra;
+	font-size: clamp(20px, 2.083vw, 40px);
+	font-weight: 400;
+	line-height: 95.5%; /* 38.2px */
+}
+
+.text {
+	color: rgba(40, 40, 41, 0.60);
+	font-family: Raleway;
+	font-size: clamp(14px, 1.042vw, 20px);
+	line-height: 95.5%;
+	text-wrap: wrap;
+}
+
+.reviewSlider {
+	display: flex;
+	gap: 6.51vw;
+	align-items: center;
+	border-radius: 20px;
+	background-color: #282829;
+	padding: 3.125vw 0px 60px 14.688vw;
+	position: relative;
+	overflow: hidden;
+	@media (max-width: 1600px) {
+		padding-left: 1.25vw;
+	}
+
+}
+
+.buttons {
+	display: flex;
+	gap: 20px;
+	position: absolute;
+	top: 60px;
+}
+
+.buttonPrev, .buttonNext {
+	border-radius: 170px;
+	border: 1px solid #FFF;
+	display: flex;
+	width: 47px;
+	height: 47px;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.buttonPrev {
+	transform: rotate(180deg);
+}
+
+.reviewContent {
+	display: flex;
+	gap: 114px;
+	@media (max-width: 690px) {
+		flex-direction: column;
+		gap: 40px;
+	}
+}
+
+.reviewText {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 120px;
+}
+
+.subtitle {
+	color: rgba(255, 255, 255, 0.50);
+	font-family: Raleway;
+	font-size: clamp(16px, 0.938vw, 18px);
+	font-weight: 500;
+	line-height: 95.5%; /* 17.19px */
+}
+
+.name {
+	color: #FFF;
+	font-family: Raleway;
+	font-size: clamp(20px, 1.667vw, 32px);
+	font-weight: 600;
+	line-height: 95.5%; /* 30.56px */
+}
+
+.comment {
+	width: 50.083vw;
+	color: #FFF;
+	font-family: Raleway;
+	font-size: clamp(14px, 1.042vw, 20px);
+
+	font-weight: 500;
+	line-height: 115.5%; /* 23.1px */
+}
+
+.reviewPhotos {
+	display: flex;
+	gap: 17px;
+	align-items: center;
+	overflow: hidden;
+}
+
+
+

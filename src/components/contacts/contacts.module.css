@@ -1,0 +1,95 @@
+.map {
+	margin-top: 6.615vw;
+}
+
+.contactsInfo {
+	margin-top: 120px;
+}
+
+.mapIframe {
+	max-width: 100%;
+}
+
+.contactsWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.textBlock {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+
+.textBlockInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+
+.title {
+	color: #282829;
+	font-family: Cakra;
+	font-size: clamp(20px, 2.083vw, 40px);
+	font-weight: 400;
+	line-height: 95.5%; /* 38.2px */
+}
+
+.text {
+	color: rgba(40, 40, 41, 0.60);
+	font-family: Raleway;
+	font-size: clamp(14px, 1.042vw, 20px);
+	font-weight: 500;
+	line-height: 95.5%; /* 19.1px */
+}
+
+.cards {
+	gap: 10px 20px;
+	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	@media (max-width: 1000px) {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+	}
+}
+
+.card {
+	padding: 3.646vw;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.cardTitle {
+	color: rgba(40, 40, 41, 0.60);
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Raleway;
+	font-size: clamp(20px, 2.083vw, 40px);
+	font-weight: 600;
+	line-height: 95.5%; /* 38.2px */
+}
+
+.cardText {
+	color: rgba(40, 40, 41, 0.60);
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 95.5%; /* 22.92px */
+}
+
+.requisites {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	color: rgba(40, 40, 41, 0.60);
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Raleway;
+	font-size: clamp(20px, 2.083vw, 40px);
+	font-weight: 600;
+	line-height: 95.5%; /* 30.56px */
+}

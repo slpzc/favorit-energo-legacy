@@ -1,0 +1,39 @@
+.nav {
+	margin-top: 40px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	@media (max-width: 900px) {
+		flex-direction: column;
+		gap: 1rem;
+	}
+}
+
+.logo {
+	color: #282829;
+	font-family: Raleway;
+	font-size: 36px;
+	font-weight: 600;
+	cursor: pointer;
+	width: 300px;
+	@media (max-width: 900px) {
+		text-align: center;
+	}
+}
+
+.logoSpan {
+	font-weight: 700;
+}
+
+.list {
+	display: flex;
+	gap: 30px;
+}
+
+.listItem {
+	cursor: pointer;
+}
+

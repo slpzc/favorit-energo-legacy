@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Cakra';
+    src: url('Cakra-Normal.eot');
+    src: local('Cakra Normal'), local('Cakra-Normal'),
+        url('Cakra-Normal.eot?#iefix') format('embedded-opentype'),
+        url('Cakra-Normal.woff2') format('woff2'),
+        url('Cakra-Normal.woff') format('woff'),
+        url('Cakra-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

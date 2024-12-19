@@ -1,0 +1,271 @@
+.product {
+	margin-top: 10.417vw;
+}
+
+.globalWrapper {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px 30px;
+	@media (max-width: 1200px) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+
+.swiperContainer {
+	width: 40.99vw;
+	@media (max-width: 1200px) {
+		width: 100%;
+	}
+}
+
+.slide {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center;
+	@media (max-width: 1200px) {
+
+	}
+}
+
+.slide img {
+	width: 27.604vw;
+	margin: auto;
+}
+
+.productInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	width: 40.729vw;
+	padding-left: 40px;
+	@media (max-width: 1200px) {
+		width: 100%;
+	}
+}
+
+.productInfoHeader {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.title {
+	color: #282829;
+	font-family: Cakra;
+	font-size: clamp(20px, 2.083vw, 40px);
+
+	font-weight: 400;
+	line-height: 95.5%; /* 38.2px */
+}
+
+.benefits {
+	display: flex;
+	gap: 15px;
+}
+
+.benefits > .text {
+	color: rgba(40, 40, 41, 0.50);
+	font-family: Raleway;
+	font-size: clamp(14px, 1.042vw, 20px);
+	font-weight: 600;
+	line-height: 95.5%; /* 17.19px */
+}
+
+.productInfoMain {
+	display: flex;
+	flex-direction: column;
+	gap: 64px;
+}
+
+.price {
+	width: fit-content;
+	color: #6AAC28;
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Raleway;
+	font-size: clamp(20px, 2.083vw, 32px);
+	font-weight: 600;
+	line-height: 95.5%;
+	border-radius: 30px;
+	background-color: #CCF437;
+	display: flex;
+	padding: 10px 30px;
+}
+
+.tableOfPrice {
+	display: grid;
+	grid-template-columns: repeat(5, 109px);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+	align-items: center;
+	width: 100%;
+	overflow-x: auto;
+}
+
+.titleOfTable {
+	color: rgba(40, 40, 41, 0.40);
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 95.5%; /* 15.28px */
+}
+
+.textOfRent {
+	color: rgba(40, 40, 41, 0.50);
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 95.5%; /* 15.28px */
+}
+
+.textOfPrice {
+	color: #282829;
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 95.5%; /* 15.28px */
+}
+
+.productInfoFooter {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	align-items: center;
+
+}
+
+.productInfoFooter > .text {
+	color: rgba(40, 40, 41, 0.50);
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 110.5%; /* 17.68px */
+}
+
+.orderButton {
+	border-radius: 30px;
+	background-color: #CCF437;
+	display: flex;
+	width: 100%;
+	padding: 20px 30px;
+	justify-content: center;
+	align-items: center;
+	color: #6AAC28;
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 95.5%; /* 19.1px */
+	cursor: pointer;
+}
+
+.productDescription {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.subtitle {
+	color: #282829;
+	font-family: Raleway;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 95.5%; /* 22.92px */
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.descriptionText {
+	color: rgba(40, 40, 41, 0.70);
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 130%; /* 19.1px */
+	font-variant-numeric: lining-nums proportional-nums;
+}
+
+.rentalDetails {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 40px;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+}
+
+.detail {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.textLeft {
+	color: rgba(40, 40, 41, 0.70);
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 95.5%; /* 19.1px */
+	white-space: nowrap;
+}
+
+.divider {
+	height: 1px;
+	background-color: #282829;
+	flex: 1 auto;
+}
+
+.textRight {
+	color: rgba(40, 40, 41, 0.90);
+	font-family: Raleway;
+	text-align: right;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 95.5%; /* 19.1px */
+}
+
+.QuestionButton {
+	margin-top: 50px;
+	display: flex;
+	width: 100%;
+	padding: 15px 40px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px;
+	background-color: #CCF437;
+	color: #6AAC28;
+	font-family: Raleway;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 95.5%; /* 19.1px */
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

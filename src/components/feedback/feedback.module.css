@@ -1,0 +1,79 @@
+.contacts {
+	margin-top: 10.417vw;
+}
+
+.contacts .globalWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+	align-items: center;
+	@media (max-width: 450px) {
+		margin: unset;
+		max-width: 100%;
+	}
+}
+
+.contactsText {
+	flex-direction: column;
+	gap: 2px;
+
+	.title {
+		color: #282829;
+		font-family: Cakra;
+		font-size: clamp(20px, 1.875vw, 36px);
+		text-align: center;
+		font-weight: 500;
+	}
+
+	.text {
+		text-align: center;
+		font-size: clamp(14px, 1.875vw, 20px);
+	}
+}
+
+.phoneForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 35px;
+	border-radius: 20px;
+	background-color: #CCF437;
+	padding: 3.563vw 6.563vw;
+	@media (max-width: 450px) {
+		margin: unset;
+		flex-direction: column;
+		width: 100%;
+		gap: 15px;
+	}
+}
+
+.phoneLabel {
+	color: #282829;
+	font-family: Raleway;
+	font-size: clamp(14px, 1.25vw, 24px);
+	font-weight: 500;
+}
+
+.phoneInput {
+	background-color: transparent;
+	border: 0;
+	padding: 10px;
+	border-bottom: 1px solid rgba(40, 40, 41, 0.50);
+	outline: 0;
+	color: rgba(40, 40, 41, 0.60);
+	font-variant-numeric: lining-nums proportional-nums;
+	font-family: Raleway;
+	font-size: clamp(14px, 1.25vw, 24px);
+	font-weight: 500;
+}
+
+.phoneSubmit {
+	border-radius: 20px;
+	background-color: #FFF;
+	padding: 0.521vw 2.083vw;
+	cursor: pointer;
+	@media (max-width: 450px) {
+		width: 100%;
+	}
+}

@@ -1,0 +1,124 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	margin: 100px;
+}
+
+.titleInfo {
+	display: flex;
+	gap: 20px;
+}
+
+.addProductBtn {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.productsListContainer {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.productsList {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.productItem {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.productActions {
+	display: flex;
+	gap: 10px;
+}
+
+.productBtn {
+	background-color: #007bff;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.productBtn:last-child {
+	background-color: red;
+}
+
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 99;
+}
+
+.popupWindow {
+	border-radius: 15px;
+	background-color: #fff;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	max-height: 70%;
+	overflow-y: auto;
+	width: 30vw;
+}
+
+.popupInput {
+	border-radius: 10px;
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid black;
+}
+
+.popupButton {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.productLabel {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 10px;
+}
+
+.newRawButton {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 5px;
+}
+
+.techLabels {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.techLabelsContainer {
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+}
