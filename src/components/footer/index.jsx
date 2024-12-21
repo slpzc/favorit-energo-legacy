@@ -40,6 +40,10 @@ export const Footer = () => {
 								</Link>
 							</ul>
 						</div>
+						<div className={styles.footerList}>
+							<iframe src="https://yandex.ru/sprav/widget/rating-badge/191824912502?type=rating&theme=dark" width="150"
+							        height="50" style={{border: 0}}></iframe>
+						</div>
 					</div>
 				</div>
 			</footer>
